@@ -1,0 +1,222 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 215144,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeWebvaldiation()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Home page default login",
+        "description": "",
+        "id": "application-login;home-page-default-login",
+        "after": [
+          {
+            "result": {
+              "duration": 64545,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterWebvaldiation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16482340816,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on YellowCard landing page",
+            "match": {
+              "location": "stepDefination.user_is_on_yellowcard_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 538470837,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User login into application with username and password",
+            "match": {
+              "location": "stepDefination.user_login_into_application_with_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6056140356,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters otp",
+            "match": {
+              "location": "stepDefination.user_enters_otp()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2418405404,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Home page is populated",
+            "match": {
+              "location": "stepDefination.home_page_is_populated()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@WebTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 47067,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeWebvaldiation()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Buy cryptocurrency using the wallet option",
+        "description": "",
+        "id": "application-login;buy-cryptocurrency-using-the-wallet-option",
+        "after": [
+          {
+            "result": {
+              "duration": 39349,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterWebvaldiation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 942186373,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on buy Cryptocurrency, select currency, choose payment method, enter amount and click confirm",
+            "match": {
+              "location": "stepDefination.user_clicks_on_buy_cryptocurrency_select_currency_choose_payment_method_enter_amount_and_click_confirm()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3070415636,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Success message is recieved",
+            "match": {
+              "location": "stepDefination.success_message_is_recieved()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@WebTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 71956,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeWebvaldiation()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Sell cryptocurrency using the wallet option",
+        "description": "",
+        "id": "application-login;sell-cryptocurrency-using-the-wallet-option",
+        "after": [
+          {
+            "result": {
+              "duration": 55912,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.AfterWebvaldiation()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1886793231,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User clicks on sell Cryptocurrency and successfully sell",
+            "match": {
+              "location": "stepDefination.user_clicks_on_sell_cryptocurrency_and_successfully_sell()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3091773673,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Success message is recieved",
+            "match": {
+              "location": "stepDefination.success_message_is_recieved()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 16,
+            "name": "@WebTest"
+          }
+        ]
+      }
+    ],
+    "name": "Application Login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "Login.feature"
+  }
+]

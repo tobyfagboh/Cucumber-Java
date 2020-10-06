@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="34.48702">
+<testcase classname="Application Login" name="Home page default login" time="25.495637">
+<system-out><![CDATA[Given User is on YellowCard landing page....................................passed
+When User login into application with username and password.................passed
+When User enters otp........................................................passed
+Then Home page is populated.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Buy cryptocurrency using the wallet option" time="4.012688">
+<system-out><![CDATA[When User clicks on buy Cryptocurrency, select currency, choose payment method, enter amount and click confirm.passed
+Then Success message is recieved............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Application Login" name="Sell cryptocurrency using the wallet option" time="4.978695">
+<system-out><![CDATA[When User clicks on sell Cryptocurrency and successfully sell...............passed
+Then Success message is recieved............................................passed
+]]></system-out>
+</testcase>
+</testsuite>
