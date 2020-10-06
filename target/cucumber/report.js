@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 215144,
+  "duration": 204843,
   "status": "passed"
 });
 formatter.scenario({
@@ -48,36 +48,36 @@ formatter.match({
   "location": "stepDefination.user_is_on_yellowcard_landing_page()"
 });
 formatter.result({
-  "duration": 16482340816,
+  "duration": 7675064392,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.user_login_into_application_with_username_and_password()"
 });
 formatter.result({
-  "duration": 538470837,
+  "duration": 1094318785,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.user_enters_otp()"
 });
 formatter.result({
-  "duration": 6056140356,
+  "duration": 9161662985,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.home_page_is_populated()"
 });
 formatter.result({
-  "duration": 2418405404,
+  "duration": 3203653154,
   "status": "passed"
 });
 formatter.after({
-  "duration": 64545,
+  "duration": 87343,
   "status": "passed"
 });
 formatter.before({
-  "duration": 47067,
+  "duration": 83774,
   "status": "passed"
 });
 formatter.scenario({
@@ -108,22 +108,22 @@ formatter.match({
   "location": "stepDefination.user_clicks_on_buy_cryptocurrency_select_currency_choose_payment_method_enter_amount_and_click_confirm()"
 });
 formatter.result({
-  "duration": 942186373,
+  "duration": 1275093355,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.success_message_is_recieved()"
 });
 formatter.result({
-  "duration": 3070415636,
+  "duration": 5090505694,
   "status": "passed"
 });
 formatter.after({
-  "duration": 39349,
+  "duration": 46472,
   "status": "passed"
 });
 formatter.before({
-  "duration": 71956,
+  "duration": 57551,
   "status": "passed"
 });
 formatter.scenario({
@@ -154,18 +154,18 @@ formatter.match({
   "location": "stepDefination.user_clicks_on_sell_cryptocurrency_and_successfully_sell()"
 });
 formatter.result({
-  "duration": 1886793231,
+  "duration": 2105626698,
   "status": "passed"
 });
 formatter.match({
   "location": "stepDefination.success_message_is_recieved()"
 });
 formatter.result({
-  "duration": 3091773673,
+  "duration": 5078376630,
   "status": "passed"
 });
 formatter.after({
-  "duration": 55912,
+  "duration": 80675,
   "status": "passed"
 });
 });

@@ -1,28 +1,13 @@
 package stepDefinations;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.When;
 import cucumber.api.java.en.Then;
-
 import cucumber.api.junit.Cucumber;
-
-import java.util.List;
-import java.util.concurrent.TimeUnit;
-
-import org.junit.Assert;
-import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
-
 import Cucumber.Automation.Base;
 import testCases.WebTest;
-
-
-
 
 @RunWith(Cucumber.class)
 public class stepDefination {
@@ -57,11 +42,6 @@ public class stepDefination {
 		
 		webTest.validateDashBoard();
 	}
-	
-//	@Given("^User is on Buy Cryptocurrency page$")
-//    public void user_is_on_buy_cryptocurrency_page() throws Throwable {
-//		System.out.println("Dashboard page");
-//    }
 
 	@When("^User clicks on buy Cryptocurrency, select currency, choose payment method, enter amount and click confirm$")
     public void user_clicks_on_buy_cryptocurrency_select_currency_choose_payment_method_enter_amount_and_click_confirm() throws Throwable {

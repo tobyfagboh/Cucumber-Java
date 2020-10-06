@@ -6,10 +6,9 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+
 
 public class Base {
 
@@ -27,13 +26,11 @@ public class Base {
 				System.getProperty("user.dir") + "/src/test/java/Cucumber/Automation/global.properties");
 		prop.load(fis);
 		
-
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Integer.parseInt(prop.getProperty("implicit.wait")), TimeUnit.SECONDS);
-		
 		driver.get(prop.getProperty("url"));
-
+		
 		return driver;
 
 	}
